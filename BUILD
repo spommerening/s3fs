@@ -6,7 +6,7 @@ Debian
 
 Prerequisites:
 
-* aptitude install build-essential debhelper quilt
+* aptitude install build-essential debhelper devscripts quilt
 
 Clean tree:
 
