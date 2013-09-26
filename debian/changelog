@@ -5,4 +5,4 @@ s3fs (1.73.0-0) stable; urgency=low
   * Sources from: http://code.google.com/p/s3fs/wiki/FuseOverAmazon
   * Switch to dpkg-source 3.0 (quilt) format
 
- -- Stefan Pommerening <pom@vTitan03.dmsp.de>  Thu, 26 Sep 2013 13:05:26 +0200
+ -- Stefan Pommerening <pom@dmsp.de>  Thu, 26 Sep 2013 13:05:26 +0200
