@@ -1,0 +1,20 @@
+Source: s3fs
+Section: misc
+Priority: optional
+Maintainer: Stefan Pommerening <pom@dmsp.de>
+Build-Depends: debhelper (>= 5.0), libfuse-dev (>= 2.8.4), fuse-utils (>= 2.8.4), libcurl4-openssl-dev (>= 7.0), libxml2-dev (>= 2.6), openssl (>= 0.9)
+Standards-Version: 1.73.0
+Homepage: http://code.google.com/p/s3fs/wiki/FuseOverAmazon
+
+Package: s3fs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: FUSE-based file system backed by Amazon S3
+ s3fs is a FUSE filesystem that allows you to mount an Amazon S3 bucket
+ as a local filesystem. It stores files natively and transparently in S3
+ (i.e., you can use other programs to access the same files).
+ Maximum file size=64GB (limited by s3fs, not Amazon).
+ s3fs is stable and is being used in number of production environments,
+ e.g. rsync backup to s3.
+ Important Note: Your kernel must support FUSE, kernels earlier than 
+ 2.6.18-164 may not have FUSE support.

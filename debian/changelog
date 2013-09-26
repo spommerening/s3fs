@@ -1,0 +1,8 @@
+s3fs (1.73.0-0) stable; urgency=low
+
+  * FUSE-based file system backed by Amazon S3
+  * Initial packaging for debian
+  * Sources from: http://code.google.com/p/s3fs/wiki/FuseOverAmazon
+
+ -- Stefan Pommerening <pom@dmsp.de>  Thu, 26 Sep 2013 08:00:00 +0100
+
